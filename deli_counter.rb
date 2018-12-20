@@ -6,7 +6,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     spot.each_index {|name, index|}
-      spot.push("#{index}. #{name}")
+      katz_deli.push("#{index}. #{name}")
     end
     puts "The line is currently: #{spot.join(" ")}"
   end
