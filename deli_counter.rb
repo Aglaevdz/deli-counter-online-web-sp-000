@@ -1,13 +1,13 @@
 # Write your code here.
 katz_deli = []
 def line(katz_deli)
-  line_spot = []
+  spot = []
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
-    line_spot.each_index {|name, index|}
-      line_spot.push("#{index}. #{name}")
+    spot.each_index {|name, index|}
+      spot.push("#{index}. #{name}")
     end
-    puts "The line is currently: #{line_spot.join(" ")}"
+    puts "The line is currently: #{spot.join(" ")}"
   end
 #end
