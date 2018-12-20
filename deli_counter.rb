@@ -9,4 +9,5 @@ def line(katz_deli)
       line_spot.push("#{index}. #{name}")
     end
     puts "The line is currently: #{line_spot.join(" ")}"
+  end
 end
