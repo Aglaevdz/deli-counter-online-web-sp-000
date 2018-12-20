@@ -20,6 +20,6 @@ def now_serving(name)
   if name.empty?
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{name[0]}"
+    puts "Currently serving #{name[0]}."
   end
 end
