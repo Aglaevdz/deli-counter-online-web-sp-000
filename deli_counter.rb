@@ -10,4 +10,5 @@ def line(katz_deli)
     end
     puts "The line is currently: #{line_spot.join(" ")}"
     end
+  end
 end
