@@ -8,6 +8,6 @@ def line(katz_deli)
     spot.each_index {|name, index|}
       katz_deli.push("#{index}. #{name}")
     end
-    puts "The line is currently: #{spot.join(" ")}"
+    puts "The line is currently: #{katz_deli.join(" ")}"
   end
 #end
